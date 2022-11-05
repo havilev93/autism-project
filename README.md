@@ -18,7 +18,7 @@ Design by: Havi Lev
 - CSS
 - JavaScript
 - Bootstrap
-- Animate.js
+- Animate.css
 
 # About The Project
 
