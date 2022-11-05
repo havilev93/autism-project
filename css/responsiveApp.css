@@ -1,0 +1,131 @@
+/* XS SIZE */
+@media screen and (max-width:768px) {
+
+
+}
+
+
+
+/* SM SIZE */
+@media screen and (min-width:768px) and (max-width:992px) {
+
+}
+
+
+
+/* MD SIZE */
+@media screen and (min-width:992px) {
+	
+}
+
+
+
+
+/* LG SIZE */
+@media screen and (min-width:1200px) {
+	
+	/* CHATBOX */
+
+	.word {
+		width:5vw;
+	}
+	
+	.chatBox div.word p {
+		font-size:12px;
+	}
+	
+	/* BOARD */
+	
+	/* FIRST BOARD */
+	
+	.board.mainBoard .card {
+		height:59vh;
+	}
+	
+	.board.mainBoard .iconBox{
+		padding:92px 35px 28px 35px;
+		text-align:center;
+	}
+	
+	.board.mainBoard .iconBox p {
+		font-size:40px;
+		margin-top:30px;
+		font-weight:700;
+	}
+	
+	/* OTHERS BOARD*/	
+	
+	.iconBox {
+		padding:22px 71px 19px 71px;
+	}
+	
+	.sound{
+		height:60%;
+	}
+	
+	.fav{
+		height:40%;
+	}
+	
+	/* FAV BOX */
+	
+	.favBox	{
+    width:69%;
+    height:74vh;
+    position:fixed;
+    top:20vh;
+    right:-69%;
+    z-index:999;
+    background:#ffffff;
+    transition:right 1s ease;
+	}
+	
+	.favOpener {
+		width:60px;
+		height:60px;
+		left:-60px;
+	}
+	
+	.favOpener img.shown {
+		display:block;
+		width:80%;
+		margin-top:7px;
+		margin-right:4px;
+	}
+	
+	.favBox h3 {
+		margin-top:-35px;
+	}
+	
+	.favBox .const .iconBox img {
+		width:65%;
+	}
+	
+	.favBox .numbers .iconBox img {
+		width:83%;
+	}
+	
+	.favBox .numbers .sound img {
+		width:78%;
+	}
+	
+	/* owl-carousel style
+	---------------------------------*/
+	
+	.owl-carousel .animated{
+		
+		animation-duration:1s;
+		animation-fill-mode:both;
+		width:45%;
+		margin-right:51px;
+		margin-top:6px;
+		padding:5px;
+	}
+	
+	/* UPLOAD CARD */
+	
+	.iconBox_up {
+		padding:22px 71px 19px 71px;
+	}
+	
+}

@@ -1,0 +1,510 @@
+
+body {
+	direction:rtl;
+	font-family: 'Heebo', sans-serif;
+	height:100vh;
+	overflow:hidden;
+}
+
+
+.noPadding {
+	padding:0;
+}
+
+
+.first_screen{
+	width:100%;
+	height:auto;
+	z-index:2000;
+	position:relative;
+}
+
+
+.first_screen_lg{
+	/*width:100%;*/
+	height:100%;
+	z-index:2000;
+	position:relative;
+	margin:0 auto;
+	display:block;
+}
+
+
+.first_screen{
+	/*width:100%;*/
+	height:100%;
+	z-index:2000;
+	position:relative;
+	margin:0 auto;
+	display:block;
+}
+
+.white_bg {
+	background:#fff;
+	width:100vw;
+	height:100vh;
+	position:absolute;
+	z-index:2000;
+}
+
+
+
+/* CHATBOX */
+
+.chatBox{
+	width:100%;
+	height:18vh;
+	display:flex;
+	position:relative;
+	box-shadow: 0px 0px 7px 0px #777;
+}
+
+.chatBox div {
+	height:100%;
+}
+
+.chatBox div.word{
+	padding-top:9px;
+	line-height: 1.1;
+}
+
+.fixed_btns #play_sen{
+	background:#EF4B60;
+	height:100%;
+	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	cursor:pointer;
+}
+
+.fixed_btns #erase{
+	height:50%;
+	padding:0 15px;
+	text-align:center;
+	background:#F4DD56;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	cursor:pointer;
+	
+}
+
+.fixed_btns img{ 
+	height:60%;
+}
+
+.fixed_btns #erase_all{
+	height:50%;
+	padding:0 15px;
+	text-align:center;
+	background:#69B0B3;	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	cursor:pointer;
+}
+
+.sentence{
+	height:100%;
+	display:flex;
+	vertical-align:top;
+	padding-right:3vw;
+	max-width:96%;
+	overflow:hidden;
+}
+
+.word{
+	width:10vw;
+	display:inline-block;
+	margin-left:20px;
+	font-size:20px;
+	text-align:center;
+}
+
+
+
+/* BOARD */
+
+main{
+	position:relative;
+	height:100%;
+}
+
+/* FIRST BOARD */
+
+.board.mainBoard{
+	margin-top:9vh;
+}
+
+.board.mainBoard .card {
+	height:55vh;
+	background:#eeeeee;
+	position:relative;
+}
+
+.board.mainBoard .iconBox {
+	padding:109px 26px 28px 26px;
+	text-align:center;
+}
+
+.board.mainBoard .iconBox p {
+	font-size:40px;
+	margin-top:22px;
+	font-weight:700;
+}
+
+/* OTHERS BOARD*/
+
+.board {
+	display:none;
+	margin-top:5vh;
+}
+
+.board.active {
+	display:block;
+}
+
+.card {
+	height:30vh;
+	background:#eeeeee;
+	position:relative;
+	margin-bottom:30px;
+	cursor:pointer;
+}
+
+.more_option {
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+
+.iconBox {
+	padding:22px 44px 28px 44px;
+	text-align:center;
+}
+
+.iconBox p {
+	font-size:30px;
+	margin-top:10px;
+}
+
+.btns {
+	height:100%;	
+}
+
+.sound {
+	height:65%;
+	background:#69B0B3;
+	padding:10px;
+	display:flex;
+	align-items:center;
+	cursor:pointer;
+}
+
+.sound img {
+	width:100%;
+}
+
+.fav {
+	height:35%;
+	background:#F4DD56;
+	padding:10px;
+	display:flex;
+	align-items:center;
+	cursor:pointer;
+}
+
+.fav.hasBeenFavorited {
+	background:#EF4B60;	
+}
+
+.fav img {
+	width:100%;
+}
+
+/* FAV BOX */
+
+.overlay {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	background:rgba(0,0,0,0.6);
+	opacity:0;
+	transition:1s all ease;
+}
+
+.overlay.shown {
+	opacity:1;
+	z-index:99;
+}
+
+.favBox {
+	width:94%;
+    height:72vh;
+    position:fixed;
+    top:20vh;
+	right:-94%;
+	z-index:999;
+	background:#ffffff;
+	transition:right 1s ease;
+}
+
+.favOpener {
+    width:49px;
+    height:49px;
+    background:#f4dd56;
+    position:relative;
+    left:-49px;
+    top:0;
+    float:left;
+    cursor:pointer;
+    border-radius:50% 0 0 50%;
+    padding-top:5px;
+    padding-left:7px;
+    padding-right:3px;
+}
+
+.favOpener img{
+	display:none;
+}
+.favOpener img.shown{
+	display:block;
+	width:95%;
+    margin-top:3px;
+}
+
+.favBox.opened {
+	right:0;
+}
+
+.favBox h3 {
+	margin-top:-25px;
+	padding-right:15px;
+}
+
+.favBox .iconBox {
+    padding:0; 
+}
+
+.favBox .const .iconBox img{
+   width:75%;
+   margin-top:1px;
+}
+
+.favBox .const .iconBox p{
+   font-size:24px;
+	margin-top:0;
+}
+
+.favBox .const .word {
+    width: 9vw;
+    margin-left: 5px;
+}
+
+.favBox .numbers .word {
+    width: 5vw;
+    margin-left: 3px;
+}
+
+.favBox .numbers .card {
+    height:8vh;
+    margin-bottom:15px;
+}
+.favBox .numbers .card p {
+    display:none;
+}
+
+.favBox .numbers .sound {
+    height:100%;
+    padding:2px;
+}
+
+.favBox .numbers .sound img {
+    width:81%;
+    margin:0 auto;
+}
+
+.favBox .numbers .iconBox {
+    padding:0;
+}
+
+
+/* owl-carousel style
+---------------------------------*/
+
+/* this is important for carousel to work well */
+
+.frame {
+height:170px;
+}
+
+.owl-stage-outer.owl-height{
+	height:170px;
+    margin-bottom:30px;
+}
+
+.owl-carousel button.owl-dot{
+	width:3em;
+	height:10px;
+	background:gray;
+	margin:0 10px;
+}
+
+.owl-carousel .owl-dot.active {
+	background:#ef4b60;
+}
+
+.owl-carousel .owl-dots {
+    text-align:center;
+}
+
+.owl-carousel .animated{animation-duration: 1s;
+    animation-fill-mode:both;
+    width:50%;
+    margin-right:35px;
+    margin-top:7px;
+    padding:5px;
+}
+
+.owl-item .sound{
+	width: 20%;
+    height: 100%;
+    background: #69B0B3;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+	float:left;
+}
+
+.owl-item.active .sound{
+	width:20%;
+    height:100%;
+    background:#69B0B3;
+    padding:10px;
+    display:flex;
+    align-items:center;
+}
+
+.owl-item.active .frame{
+	height:170px;
+    background:#eee;
+    margin-left:30px;
+}
+
+.owl-item.active .item p{
+	margin:0px;
+    margin-top:10px;
+}
+
+/* end of owl-carousel style*/
+
+
+.user-fav {
+	border-top:1px solid grey;
+	padding-top:30px;
+	padding-right:30px;
+}
+
+.favBox .content {
+	margin-top:-30px;
+}
+
+.favBox .const .sound {
+	height:100%;
+}
+.favBox .const .card {
+    height:13vh;     
+	margin-bottom:15px;
+}
+
+.favBox .const .iconBox {
+    padding:0;
+}
+
+
+/* FOOTER */
+footer {
+	background:#ededed;
+	height:8vh;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+footer a{
+	font-size:14px;
+	line-height:8.5vh;
+	margin-left:8px;
+    color:#555;
+	font-weight:400;
+}
+
+footer a:hover{
+	text-decoration:none;
+}
+
+footer .logoCopyright{
+	float:left;
+}
+
+footer .logoCopyright p{
+	font-size:18px;
+	line-height:8.5vh;
+	margin-left:8px;
+    color:#555;
+	font-weight:500;
+	display:inline-block;
+}
+
+footer .logoCopyright img{
+	display:inline-block;
+	height:8vh;
+	width:auto;
+	padding:13px 0;
+	margin-top:-11px;
+}
+
+
+/* animated */
+.animated {
+	    animation-duration:2s;
+}
+
+
+/* UPLOAD CARD */
+.card_up {
+	height:30vh;
+	background:#eeeeee;
+	position:relative;
+	margin-bottom:30px;
+	cursor:pointer;
+}
+
+
+.iconBox_up {
+	padding:22px 44px 28px 44px;
+	text-align:center;
+}
+
+.iconBox_up label p {
+	font-weight:400;
+	font-size:30px;
+	margin-top:10px;
+}
+
+.card_up .sound {
+	height:100%;
+	background:#69B0B3;
+	padding:10px;
+	display:flex;
+	align-items:center;
+	cursor:pointer;
+}

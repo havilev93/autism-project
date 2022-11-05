@@ -1,0 +1,2143 @@
+<!DOCTYPE html>
+<html lang="he">
+	<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	
+    <title>אוטיזם - מדברים על זה | אפליקצית </title>
+
+	<meta name="Keywords" content="app, kids, interactice, autizm, talking">
+	<meta name="Description" content="app for kids with autizm that help them talking">
+	
+	<!-- google fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700" rel="stylesheet">
+   
+   <!-- owl carousel - needs to load before any thing else -->
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+   
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
+	
+	<!--My Css Files -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/styleApp.css" rel="stylesheet">
+    <link href="css/responsiveApp.css" rel="stylesheet">
+	
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+	
+	<body>
+	
+	
+		<!-- **********************************
+		TABLET/IPAD VERSION -->
+		
+		<!-- WELLCOME SCREEN -->
+		<div class="white_bg hidden-lg"><img class="first_screen" src="images/first_screen.jpg" alt=""></div>
+		<div class="white_bg hidden-md"><img class="first_screen_lg" src="images/first_screen_lg.jpg" alt=""></div>
+		
+		<!-- START OF CONTAINER AND ROW -->
+		<div class="container-fluid">
+			
+			<div class="row">
+			
+			
+				<!-- CHATBOX SECTION -->
+				<div class="chatBox">
+					
+					<div class="col-xs-8 col-sm-9 col-md-9 col-lg-10">
+						<div class="sentence"></div>
+					</div>
+					
+					<div class="fixed_btns col-sm-3 col-xs-4 col-md-3 col-lg-2 noPadding">
+						<div class="col-xs-7 noPadding">
+							<div id="play_sen"><img src="images/play_all.svg" alt="play_all"></div>
+						</div>
+						<div class="col-xs-5 noPadding">	
+							<div id="erase"><img src="images/back.svg" alt="back"></div>
+							<div id="erase_all"><img src="images/delete_all.svg" alt="delete_all"></div>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		<!-- END OF CHATBOX SECTION END OF CONTAINER AND ROW -->
+			
+		<!-- MAIN - ALL THE BOARDS -->
+		<main>
+				<!-- this is the blackish screen that shows when favBox opens -->
+				<div class="overlay"></div>
+				
+				<div class="container">
+				
+					<!-- BOARD - ONE BOARD -->
+					<section class="board active mainBoard" id="main_icons">
+						<div class="row">
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- MORE ICONS ICON -->
+									<div class="more_option">
+										<img src="images/more_icons.svg" alt="more_icons">
+									</div>
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="want" data-wordBlock="wantBlock" data-current-section="main_icons" data-goToSection="want_icons" data-word="אני רוצה" data-audio="wantAudio" data-src="images/want.svg">
+										
+										<img class="icon" src="images/want.svg" alt="want">
+										<p>רצונות</p>
+																				
+										<audio id="wantAudio">
+											<source src="audio/want.mp3" type="audio/mp3">
+											<source src="audio/want.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="wantAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- MORE ICONS ICON -->
+									<div class="more_option">
+										<img src="images/more_icons.svg" alt="more_icons">
+									</div>
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="feel" data-wordBlock="feelBlock" data-current-section="main_icons" data-goToSection="feeling_icons" data-word="אני מרגישה" data-audio="feelAudio" data-src="images/feel.svg">
+										
+										<img class="icon" src="images/feel.svg" alt="feel">
+										<p>רגשות</p>
+																				
+										<audio id="feelAudio">
+											<source src="audio/feel.mp3" type="audio/mp3">
+											<source src="audio/feel.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="feelAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- MORE ICONS ICON -->
+									<div class="more_option">
+										<img src="images/more_icons.svg" alt="more_icons">
+									</div>
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="questions" data-wordBlock="questionsBlock" data-current-section="main_icons" data-goToSection="questions_icons" data-word="יש לי שאלה" data-audio="questionsAudio" data-src="images/questions.svg">
+										
+										<img class="icon" src="images/questions.svg" alt="questions">
+										<p>שאלות</p>
+																				
+										<audio id="questionsAudio">
+											<source src="audio/questions.mp3" type="audio/mp3">
+											<source src="audio/questions.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="questionsAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+						</div>
+						<!-- END OF ROW -->
+					</section>
+					<!-- END OF BOARD -->
+					
+					<!-- BOARD - ONE BOARD -->
+					<section class="board" id="want_icons">
+						<div class="row">
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- MORE ICONS ICON -->
+									<div class="more_option">
+										<img src="images/more_icons.svg" alt="more_icons">
+									</div>
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="drink" data-wordBlock="drinkBlock" data-current-section="want_icons" data-goToSection="drink_icons" data-word="לשתות" data-audio="drinkAudio" data-src="images/drink.svg">
+										
+										<img class="icon" src="images/drink.svg" alt="drink">
+										<p>לשתות</p>
+																				
+										<audio id="drinkAudio">
+											<source src="audio/drink.mp3" type="audio/mp3">
+											<source src="audio/drink.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="drinkAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- MORE ICONS ICON -->
+									<div class="more_option">
+										<img src="images/more_icons.svg" alt="more_icons">
+									</div>
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="eat" data-wordBlock="eatBlock" data-current-section="want_icons" data-goToSection="eat_icons" data-word="לאכול" data-audio="eatAudio" data-src="images/eat.svg">
+										
+										<img class="icon" src="images/eat.svg" alt="eat">
+										<p>לאכול</p>
+																				
+										<audio id="eatAudio">
+											<source src="audio/eat.mp3" type="audio/mp3">
+											<source src="audio/eat.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="eatAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="play" data-wordBlock="playBlock" data-current-section="want_icons" data-goToSection="main_icons" data-word="לשחק" data-audio="playAudio" data-src="images/play.svg">
+										
+										<img class="icon" src="images/play.svg" alt="play">
+										<p>לשחק</p>
+																				
+										<audio id="playAudio">
+											<source src="audio/play.mp3" type="audio/mp3">
+											<source src="audio/play.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="playAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="sleep" data-wordBlock="sleepBlock" data-current-section="want_icons" data-goToSection="main_icons" data-word="לישון" data-audio="sleepAudio" data-src="images/sleep.svg">
+										
+										<img class="icon" src="images/sleep.svg" alt="sleep">
+										<p>לישון</p>
+																				
+										<audio id="sleepAudio">
+											<source src="audio/sleep.mp3" type="audio/mp3">
+											<source src="audio/sleep.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="sleepAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="toilet" data-wordBlock="toiletBlock" data-current-section="want_icons" data-goToSection="main_icons" data-word="להתפנות" data-audio="toiletAudio" data-src="images/toilet.svg">
+										
+										<img class="icon" src="images/toilet.svg" alt="toilet">
+										<p>להתפנות</p>
+																				
+										<audio id="toiletAudio">
+											<source src="audio/toilet.mp3" type="audio/mp3">
+											<source src="audio/toilet.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="toiletAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- MORE ICONS ICON -->
+									<div class="more_option">
+										<img src="images/more_icons.svg" alt="more_icons">
+									</div>
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="watch" data-wordBlock="watchBlock" data-current-section="want_icons" data-goToSection="watch_icons" data-word="לצפות" data-audio="watchAudio" data-src="images/watch.svg">
+										
+										<img class="icon" src="images/watch.svg" alt="watch">
+										<p>לצפות</p>
+																				
+										<audio id="watchAudio">
+											<source src="audio/watch.mp3" type="audio/mp3">
+											<source src="audio/watch.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="watchAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+						</div>
+						<!-- END OF ROW -->
+					</section>
+					<!-- END OF BOARD -->
+					
+					<!-- BOARD - ONE BOARD -->
+					<section class="board" id="feeling_icons">
+						<div class="row">
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="excited" data-wordBlock="excitedBlock" data-current-section="feeling_icons" data-goToSection="main_icons" data-word="מתרגשת" data-audio="excitedAudio" data-src="images/excited.svg">
+										
+										<img class="icon" src="images/excited.svg" alt="excited">
+										<p>מתרגשת</p>
+																				
+										<audio id="excitedAudio">
+											<source src="audio/excited.mp3" type="audio/mp3">
+											<source src="audio/excited.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="excitedAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="relax" data-wordBlock="relaxBlock" data-current-section="feeling_icons" data-goToSection="main_icons" data-word="רגועה" data-audio="relaxAudio" data-src="images/relax.svg">
+										
+										<img class="icon" src="images/relax.svg" alt="relax">
+										<p>רגועה</p>
+																				
+										<audio id="relaxAudio">
+											<source src="audio/relax.mp3" type="audio/mp3">
+											<source src="audio/relax.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="relaxAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="confused" data-wordBlock="confusedBlock" data-current-section="feeling_icons" data-goToSection="main_icons" data-word="מבולבלת" data-audio="confusedAudio" data-src="images/confused.svg">
+										
+										<img class="icon" src="images/confused.svg" alt="confused">
+										<p>מבולבלת</p>
+																				
+										<audio id="confusedAudio">
+											<source src="audio/confused.mp3" type="audio/mp3">
+											<source src="audio/confused.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="confusedAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="sad" data-wordBlock="sadBlock" data-current-section="feeling_icons" data-goToSection="main_icons" data-word="עצובה" data-audio="sadAudio" data-src="images/sad.svg">
+										
+										<img class="icon" src="images/sad.svg" alt="sad">
+										<p>עצובה</p>
+																				
+										<audio id="sadAudio">
+											<source src="audio/sad.mp3" type="audio/mp3">
+											<source src="audio/sad.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="sadAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="angry" data-wordBlock="angryBlock" data-current-section="feeling_icons" data-goToSection="main_icons" data-word="כועסת" data-audio="angryAudio" data-src="images/angry.svg">
+										
+										<img class="icon" src="images/angry.svg" alt="angry">
+										<p>כועסת</p>
+																				
+										<audio id="angryAudio">
+											<source src="audio/angry.mp3" type="audio/mp3">
+											<source src="audio/angry.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="angryAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="happy" data-wordBlock="happyBlock" data-current-section="feeling_icons" data-goToSection="main_icons" data-word="שמחה" data-audio="happyAudio" data-src="images/happy.svg">
+										
+										<img class="icon" src="images/happy.svg" alt="happy">
+										<p>שמחה</p>
+																				
+										<audio id="happyAudio">
+											<source src="audio/happy.mp3" type="audio/mp3">
+											<source src="audio/happy.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="happyAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+						
+						</div>
+						<!-- END OF ROW -->
+					</section>
+					<!-- END OF BOARD -->
+					
+					<!-- BOARD - ONE BOARD -->
+					<section class="board" id="questions_icons">
+						<div class="row">
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="when" data-wordBlock="whenBlock" data-current-section="questions_icons" data-goToSection="main_icons" data-word="מתי?" data-audio="whenAudio" data-src="images/when.svg">
+										
+										<img class="icon" src="images/when.svg" alt="when">
+										<p>מתי?</p>
+																				
+										<audio id="whenAudio">
+											<source src="audio/when.mp3" type="audio/mp3">
+											<source src="audio/when.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="whenAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="where" data-wordBlock="whereBlock" data-current-section="questions_icons" data-goToSection="main_icons" data-word="איפה?" data-audio="whereAudio" data-src="images/where.svg">
+										
+										<img class="icon" src="images/where.svg" alt="where">
+										<p>איפה?</p>
+																				
+										<audio id="whereAudio">
+											<source src="audio/where.mp3" type="audio/mp3">
+											<source src="audio/where.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="whereAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="who" data-wordBlock="whoBlock" data-current-section="questions_icons" data-goToSection="main_icons" data-word="מי?" data-audio="whoAudio" data-src="images/who.svg">
+										
+										<img class="icon" src="images/who.svg" alt="who">
+										<p>מי?</p>
+																				
+										<audio id="whoAudio">
+											<source src="audio/who.mp3" type="audio/mp3">
+											<source src="audio/who.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="whoAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="how_many" data-wordBlock="how_manyBlock" data-current-section="questions_icons" data-goToSection="main_icons" data-word="כמה?" data-audio="how_manyAudio" data-src="images/how_many.svg">
+										
+										<img class="icon" src="images/how_many.svg" alt="how_many">
+										<p>כמה?</p>
+																				
+										<audio id="how_manyAudio">
+											<source src="audio/how_many.mp3" type="audio/mp3">
+											<source src="audio/how_many.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="how_manyAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="to_where" data-wordBlock="to_whereBlock" data-current-section="questions_icons" data-goToSection="main_icons" data-word="לאן?" data-audio="to_whereAudio" data-src="images/to_where.svg">
+										
+										<img class="icon" src="images/to_where.svg" alt="to_where">
+										<p>לאן?</p>
+																				
+										<audio id="to_whereAudio">
+											<source src="audio/to_where.mp3" type="audio/mp3">
+											<source src="audio/to_where.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="to_whereAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- MORE ICONS ICON -->
+									<div class="more_option">
+										<img src="images/more_icons.svg" alt="more_icons">
+									</div>
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="which" data-wordBlock="whichBlock" data-current-section="questions_icons" data-goToSection="which_icons" data-word="איזה?" data-audio="whichAudio" data-src="images/which.svg">
+										
+										<img class="icon" src="images/which.svg" alt="which">
+										<p>איזה?</p>
+																				
+										<audio id="whichAudio">
+											<source src="audio/which.mp3" type="audio/mp3">
+											<source src="audio/which.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="whichAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+						</div>
+						<!-- END OF ROW -->
+					</section>
+					<!-- END OF BOARD -->
+					
+					<!-- BOARD - ONE BOARD -->
+					<section class="board" id="drink_icons">
+						<div class="row">
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="orange" data-wordBlock="orangeBlock" data-current-section="drink_icons" data-goToSection="main_icons" data-word="מיץ תפוזים" data-audio="orangeAudio" data-src="images/orange.svg">
+										
+										<img class="icon" src="images/orange.svg" alt="orange">
+										<p>מיץ תפוזים</p>
+																				
+										<audio id="orangeAudio">
+											<source src="audio/orange.mp3" type="audio/mp3">
+											<source src="audio/orange.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="orangeAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="shoko" data-wordBlock="shokoBlock" data-current-section="drink_icons" data-goToSection="main_icons" data-word="שוקו" data-audio="shokoAudio" data-src="images/shoko.svg">
+										
+										<img class="icon" src="images/shoko.svg" alt="orange">
+										<p>שוקו</p>
+																				
+										<audio id="shokoAudio">
+											<source src="audio/shoko.mp3" type="audio/mp3">
+											<source src="audio/shoko.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="shokoAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- UPLOAD CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card_up">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox_up wordBox_up" id="plus" data-wordBlock="plusBlock" data-current-section="drink_icons" data-goToSection="main_icons" data-word="העלה כרטיס" data-audio="plusAudio" data-src="images/plus.svg">
+										
+										<label>
+										
+											<input type="file" name="input-name" style="display: none;" />
+											<span id="input-file-replacer"></span>
+
+											<img class="icon" src="images/plus.svg" alt="plus">
+											<p>העלה כרטיס</p>
+											
+											
+										</label>
+	
+										<audio id="plusAudio">
+											<source src="audio/plus.mp3" type="audio/mp3">
+											<source src="audio/plus.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="plusAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF UPLOAD CARD COLUMN -->		
+						
+						</div>
+						<!-- END OF ROW -->
+					</section>
+					<!-- END OF BOARD -->
+					
+					<!-- BOARD - ONE BOARD -->
+					<section class="board" id="eat_icons">
+						<div class="row">
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="cornflex" data-wordBlock="cornflexBlock" data-current-section="eat_icons" data-goToSection="main_icons" data-word="קורנפלקס" data-audio="cornflexAudio" data-src="images/cornflex.svg">
+										
+										<img class="icon" src="images/cornflex.svg" alt="cornflex">
+										<p>קורנפלקס</p>
+																				
+										<audio id="cornflexAudio">
+											<source src="audio/cornflex.mp3" type="audio/mp3">
+											<source src="audio/cornflex.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="cornflexAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="cake" data-wordBlock="cakeBlock" data-current-section="eat_icons" data-goToSection="main_icons" data-word="עוגה" data-audio="cakeAudio" data-src="images/cake.svg">
+										
+										<img class="icon" src="images/cake.svg" alt="cake">
+										<p>עוגה</p>
+																				
+										<audio id="cakeAudio">
+											<source src="audio/cake.mp3" type="audio/mp3">
+											<source src="audio/cake.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="cakeAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- UPLOAD CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card_up">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox_up wordBox_up" id="plus" data-wordBlock="plusBlock" data-current-section="drink_icons" data-goToSection="main_icons" data-word="העלה כרטיס" data-audio="plusAudio" data-src="images/plus.svg">
+										
+										<label>
+										
+											<input type="file" name="input-name" style="display: none;" />
+											<span id="input-file-replacer"></span>
+
+											<img class="icon" src="images/plus.svg" alt="plus">
+											<p>העלה כרטיס</p>
+											
+											
+										</label>
+	
+										<audio id="plusAudio">
+											<source src="audio/plus.mp3" type="audio/mp3">
+											<source src="audio/plus.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="plusAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF UPLOAD CARD COLUMN -->	
+						
+						</div>
+						<!-- END OF ROW -->
+					</section>
+					<!-- END OF BOARD -->
+					
+					<!-- BOARD - ONE BOARD -->
+					<section class="board" id="watch_icons">
+						<div class="row">
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="spongeBob" data-wordBlock="spongeBobBlock" data-current-section="watch_icons" data-goToSection="main_icons" data-word="בוב ספוג" data-audio="spongeBobAudio" data-src="images/spongeBob.svg">
+										
+										<img class="icon" src="images/spongeBob.svg" alt="spongeBob">
+										<p>בוב ספוג</p>
+																				
+										<audio id="spongeBobAudio">
+											<source src="audio/spongeBob.mp3" type="audio/mp3">
+											<source src="audio/spongeBob.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="spongeBobAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="dora" data-wordBlock="doraBlock" data-current-section="watch_icons" data-goToSection="main_icons" data-word="דורה" data-audio="doraAudio" data-src="images/dora.svg">
+										
+										<img class="icon" src="images/dora.svg" alt="dora">
+										<p>דורה</p>
+																				
+										<audio id="doraAudio">
+											<source src="audio/dora.mp3" type="audio/mp3">
+											<source src="audio/dora.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="doraAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- UPLOAD CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card_up">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox_up wordBox_up" id="plus" data-wordBlock="plusBlock" data-current-section="drink_icons" data-goToSection="main_icons" data-word="העלה כרטיס" data-audio="plusAudio" data-src="images/plus.svg">
+										
+										<label>
+										
+											<input type="file" name="input-name" style="display: none;" />
+											<span id="input-file-replacer"></span>
+
+											<img class="icon" src="images/plus.svg" alt="plus">
+											<p>העלה כרטיס</p>
+											
+											
+										</label>
+	
+										<audio id="plusAudio">
+											<source src="audio/plus.mp3" type="audio/mp3">
+											<source src="audio/plus.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="plusAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF UPLOAD CARD COLUMN -->		
+						
+						</div>
+						<!-- END OF ROW -->
+					</section>
+					<!-- END OF BOARD -->
+					
+					<!-- BOARD - ONE BOARD -->
+					<section class="board" id="which_icons">
+						<div class="row">
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="shirt" data-wordBlock="shirtBlock" data-current-section="which_icons" data-goToSection="main_icons" data-word="חולצה" data-audio="shirtAudio" data-src="images/shirt.svg">
+										
+										<img class="icon" src="images/shirt.svg" alt="shirt">
+										<p>חולצה</p>
+																				
+										<audio id="shirtAudio">
+											<source src="audio/shirt.mp3" type="audio/mp3">
+											<source src="audio/shirt.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="shirtAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox wordBox" id="kobiot" data-wordBlock="kobiotBlock" data-current-section="which_icons" data-goToSection="main_icons" data-word="משחק" data-audio="kobiotAudio" data-src="images/kobiot.svg">
+										
+										<img class="icon" src="images/kobiot.svg" alt="kobiot">
+										<p>משחק</p>
+																				
+										<audio id="kobiotAudio">
+											<source src="audio/kobiot.mp3" type="audio/mp3">
+											<source src="audio/kobiot.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="kobiotAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+										<div class="fav">
+											<img src="images/favorite.svg" alt="favorite">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->		
+						
+							<!-- UPLOAD CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card_up">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-10 iconBox_up wordBox_up" id="plus" data-wordBlock="plusBlock" data-current-section="drink_icons" data-goToSection="main_icons" data-word="העלה כרטיס" data-audio="plusAudio" data-src="images/plus.svg">
+										
+										<label>
+										
+											<input type="file" name="input-name" style="display: none;" />
+											<span id="input-file-replacer"></span>
+
+											<img class="icon" src="images/plus.svg" alt="plus">
+											<p>העלה כרטיס</p>
+											
+											
+										</label>
+	
+										<audio id="plusAudio">
+											<source src="audio/plus.mp3" type="audio/mp3">
+											<source src="audio/plus.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-2 btns noPadding">
+										
+										<div class="sound" data-audio="plusAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>
+										
+									</div>
+									
+								</div>
+							</div>
+							<!-- END OF UPLOAD CARD COLUMN -->		
+						
+						</div>
+						<!-- END OF ROW -->
+					</section>
+					<!-- END OF BOARD -->
+					
+				</div>
+				<!-- END OF CONTAINER-->
+		</main>
+		<!-- END OF MAIN-->
+		
+		<!-- START OF FAVBOX -->
+		<div class="favBox">
+			<div class="favOpener">
+				<img src="images/favorite.svg" alt="favorite box" class="shown">
+				<img src="images/close.svg" alt="favorite box" class="">
+			</div>
+			
+			<div class="content">
+			
+				<!-- START OF DEAFULT APP FAV -->
+				<div class="default">
+				
+					<div class="col-xs-12"><h3>תיבת המועדפים שלי</h3></div>
+					
+					<!-- START OF CONS -->
+					<div class="col-xs-7">
+						<div class="const">
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-8 iconBox wordBox" id="fav_yes" data-wordBlock="yesBlock" data-current-section="fav" data-goToSection="noGo" data-word="כן" data-audio="fav_yesAudio" data-src="images/yes.svg">
+										
+										<img class="icon" src="images/yes.svg" alt="yes">
+										<p>כן</p>
+																				
+										<audio id="fav_yesAudio">
+											<source src="audio/yes.mp3" type="audio/mp3">
+											<source src="audio/yes.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-4 btns noPadding">
+										
+										<div class="sound" data-audio="fav_yesAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>		
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-8 iconBox wordBox" id="fav_no" data-wordBlock="noBlock" data-current-section="fav" data-goToSection="noGo" data-word="לא" data-audio="fav_noAudio" data-src="images/no.svg">
+										
+										<img class="icon" src="images/no.svg" alt="no">
+										<p>לא</p>
+																				
+										<audio id="fav_noAudio">
+											<source src="audio/no.mp3" type="audio/mp3">
+											<source src="audio/no.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-4 btns noPadding">
+										
+										<div class="sound" data-audio="fav_noAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>		
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->
+				
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-8 iconBox wordBox" id="fav_hello" data-wordBlock="helloBlock" data-current-section="fav" data-goToSection="noGo" data-word="שלום" data-audio="fav_helloAudio" data-src="images/hello.svg">
+										
+										<img class="icon" src="images/hello.svg" alt="hello">
+										<p>שלום</p>
+																				
+										<audio id="fav_helloAudio">
+											<source src="audio/hello.mp3" type="audio/mp3">
+											<source src="audio/hello.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-4 btns noPadding">
+										
+										<div class="sound" data-audio="fav_helloAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>		
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-8 iconBox wordBox" id="fav_mom" data-wordBlock="momBlock" data-current-section="fav" data-goToSection="noGo" data-word="אמא" data-audio="fav_momAudio" data-src="images/mom.svg">
+										
+										<img class="icon" src="images/mom.svg" alt="mom">
+										<p>אמא</p>
+																				
+										<audio id="fav_momAudio">
+											<source src="audio/mom.mp3" type="audio/mp3">
+											<source src="audio/mom.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-4 btns noPadding">
+										
+										<div class="sound" data-audio="fav_momAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>		
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-8 iconBox wordBox" id="fav_dad" data-wordBlock="dadBlock" data-current-section="fav" data-goToSection="noGo" data-word="אבא" data-audio="fav_dadAudio" data-src="images/dad.svg">
+										
+										<img class="icon" src="images/dad.svg" alt="dad">
+										<p>אבא</p>
+																				
+										<audio id="fav_dadAudio">
+											<source src="audio/dad.mp3" type="audio/mp3">
+											<source src="audio/dad.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-4 btns noPadding">
+										
+										<div class="sound" data-audio="fav_dadAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>		
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->
+						
+							<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-8 iconBox wordBox" id="fav_home" data-wordBlock="homeBlock" data-current-section="fav" data-goToSection="noGo" data-word="בית" data-audio="fav_homeAudio" data-src="images/home.svg">
+										
+										<img class="icon" src="images/home.svg" alt="home">
+										<p>בית</p>
+																				
+										<audio id="fav_homeAudio">
+											<source src="audio/home.mp3" type="audio/mp3">
+											<source src="audio/home.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-4 btns noPadding">
+										
+										<div class="sound" data-audio="fav_homeAudio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>		
+								</div>
+							</div>
+							<!-- END OF CARD COLUMN -->
+						
+						
+						
+						</div>
+					</div>
+					<!-- END OF CONS -->
+					
+					<!-- START OF NUMBERS -->
+					<div class="col-xs-5">
+						<div class="numbers">
+						
+						<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-7 iconBox wordBox" id="fav_1" data-wordBlock="1Block" data-current-section="fav" data-goToSection="noGo" data-word="1" data-audio="fav_1Audio" data-src="images/1.svg">
+										
+										<img class="icon" src="images/1.svg" alt="1">
+										<p>1</p>
+																				
+										<audio id="fav_1Audio">
+											<source src="audio/1.mp3" type="audio/mp3">
+											<source src="audio/1.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-5 btns noPadding">
+										
+										<div class="sound" data-audio="fav_1Audio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>
+									
+								</div>
+							</div>
+						<!-- END OF CARD COLUMN -->
+						
+						<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-7 iconBox wordBox" id="fav_2" data-wordBlock="2Block" data-current-section="fav" data-goToSection="noGo" data-word="2" data-audio="fav_2Audio" data-src="images/2.svg">
+										
+										<img class="icon" src="images/2.svg" alt="2">
+										<p>2</p>
+																				
+										<audio id="fav_2Audio">
+											<source src="audio/2.mp3" type="audio/mp3">
+											<source src="audio/2.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-5 btns noPadding">
+										
+										<div class="sound" data-audio="fav_2Audio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>
+									
+								</div>
+							</div>
+						<!-- END OF CARD COLUMN -->
+						
+						<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-7 iconBox wordBox" id="fav_3" data-wordBlock="3Block" data-current-section="fav" data-goToSection="noGo" data-word="3" data-audio="fav_3Audio" data-src="images/3.svg">
+										
+										<img class="icon" src="images/3.svg" alt="3">
+										<p>3</p>
+																				
+										<audio id="fav_3Audio">
+											<source src="audio/3.mp3" type="audio/mp3">
+											<source src="audio/3.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-5 btns noPadding">
+										
+										<div class="sound" data-audio="fav_3Audio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>
+									
+								</div>
+							</div>
+						<!-- END OF CARD COLUMN -->
+							
+						<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-7 iconBox wordBox" id="fav_4" data-wordBlock="4Block" data-current-section="fav" data-goToSection="noGo" data-word="4" data-audio="fav_4Audio" data-src="images/4.svg">
+										
+										<img class="icon" src="images/4.svg" alt="4">
+										<p>4</p>
+																				
+										<audio id="fav_4Audio">
+											<source src="audio/4.mp3" type="audio/mp3">
+											<source src="audio/4.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-5 btns noPadding">
+										
+										<div class="sound" data-audio="fav_4Audio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>
+									
+								</div>
+							</div>
+						<!-- END OF CARD COLUMN -->
+							
+						<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-7 iconBox wordBox" id="fav_5" data-wordBlock="5Block" data-current-section="fav" data-goToSection="noGo" data-word="5" data-audio="fav_5Audio" data-src="images/5.svg">
+										
+										<img class="icon" src="images/5.svg" alt="5">
+										<p>5</p>
+																				
+										<audio id="fav_5Audio">
+											<source src="audio/5.mp3" type="audio/mp3">
+											<source src="audio/5.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-5 btns noPadding">
+										
+										<div class="sound" data-audio="fav_5Audio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>
+									
+								</div>
+							</div>
+						<!-- END OF CARD COLUMN -->
+														
+						<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-7 iconBox wordBox" id="fav_6" data-wordBlock="6Block" data-current-section="fav" data-goToSection="noGo" data-word="6" data-audio="fav_6Audio" data-src="images/6.svg">
+										
+										<img class="icon" src="images/6.svg" alt="6">
+										<p>6</p>
+																				
+										<audio id="fav_6Audio">
+											<source src="audio/6.mp3" type="audio/mp3">
+											<source src="audio/6.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-5 btns noPadding">
+										
+										<div class="sound" data-audio="fav_6Audio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>
+									
+								</div>
+							</div>
+						<!-- END OF CARD COLUMN -->
+							
+						<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-7 iconBox wordBox" id="fav_7" data-wordBlock="7Block" data-current-section="fav" data-goToSection="noGo" data-word="7" data-audio="fav_7Audio" data-src="images/7.svg">
+										
+										<img class="icon" src="images/7.svg" alt="7">
+										<p>7</p>
+																				
+										<audio id="fav_7Audio">
+											<source src="audio/7.mp3" type="audio/mp3">
+											<source src="audio/7.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-5 btns noPadding">
+										
+										<div class="sound" data-audio="fav_7Audio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>
+									
+								</div>
+							</div>
+						<!-- END OF CARD COLUMN -->
+							
+						<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-7 iconBox wordBox" id="fav_8" data-wordBlock="8Block" data-current-section="fav" data-goToSection="noGo" data-word="8" data-audio="fav_8Audio" data-src="images/8.svg">
+										
+										<img class="icon" src="images/8.svg" alt="8">
+										<p>8</p>
+																				
+										<audio id="fav_8Audio">
+											<source src="audio/8.mp3" type="audio/mp3">
+											<source src="audio/8.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-5 btns noPadding">
+										
+										<div class="sound" data-audio="fav_8Audio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>
+									
+								</div>
+							</div>
+						<!-- END OF CARD COLUMN -->
+														
+						<!-- CARD COLUMN -->
+							<div class="col-xs-4">
+								<div class="card">
+									
+									<!-- THE WORD -->
+									<div class="col-xs-7 iconBox wordBox" id="fav_9" data-wordBlock="9Block" data-current-section="fav" data-goToSection="noGo" data-word="9" data-audio="fav_9Audio" data-src="images/9.svg">
+										
+										<img class="icon" src="images/9.svg" alt="9">
+										<p>9</p>
+																				
+										<audio id="fav_9Audio">
+											<source src="audio/9.mp3" type="audio/mp3">
+											<source src="audio/9.ogg" type="audio/ogg">
+										</audio>
+
+									</div>
+									
+									<!-- BTNS -->
+									<div class="col-xs-5 btns noPadding">
+										
+										<div class="sound" data-audio="fav_9Audio">
+											<img src="images/sound.svg" alt="sound">
+										</div>		
+									</div>
+									
+								</div>
+							</div>
+						<!-- END OF CARD COLUMN -->
+								
+						</div>
+					</div>
+					<!-- END OF NUMBERS -->
+					
+				</div>
+				<!-- END OF DEAFULT APP FAV -->
+				
+				<!-- START OF USER FAV -->
+				<div class="user-fav col-xs-12">
+					<div class="owl-carousel">
+						<!--<div class="frame item"><div class="word"><img class="icon" src="images/drink.svg"><p>theWord</p></div></div>-->
+
+					</div>
+				</div>
+				<!-- END OF USER FAV -->
+				
+			</div>
+		
+		</div>
+		<!-- END OF FAVBOX -->
+		
+		<!-- FOOTER -->
+		<footer>
+			<div class="container">
+				<a href="index.html">דף הבית</a>
+				<a href="instruction.html">מדריך לאפליקציה</a>
+				<a href="#">סיפורים אישיים</a>
+				<a href="#">המומחים שלנו</a>
+				<div class="logoCopyright">
+					<p>פותח ויוצר ע"י</p>
+					<a href="myApp.html"><img src="images/logo.png" alt="autizm logo"></a>
+				</div>
+			</div>
+		</footer>
+		<!-- END OF FOOTER -->
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		
+		<!-- My Scripts -->
+		<script>
+			
+						
+$(document).ready(function(){
+
+
+	<!-- WELLCOM SCREEN DISAPPEARED ON CLICK ON MD SIZE -->
+	$(".first_screen").click(function(){
+		$(".first_screen").parent().fadeOut();
+	});
+
+	<!-- WELLCOM SCREEN DISAPPEARED ON CLICK ON LG SIZE -->
+	$(".first_screen_lg").click(function(){
+		$(".first_screen_lg").parent().fadeOut();
+	});
+	
+	
+	<!-- FAV CAROUSEL -->
+	var owl = $('.owl-carousel').owlCarousel({
+				rtl:true,
+				loop:false,
+				rewind: true,
+				margin:0,
+				autoHeight: true,
+				autoWidth: false,
+				dots: true,
+				nav:false,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:3
+					},
+					1000:{
+						items:3
+					}
+				}
+			});
+
+ 
+			// attaching event to ADD-WORD
+			$('body').on('click', '.wordBox', function(){
+				addWord(this, "nofav")
+			});	
+			
+			// creating counter var for checking if we're in the main board for the first time or more
+			var count = 0;
+			/* FUNCTION -  ADD WORD TO CHATBOX & MOVE SECTION */
+			function addWord(elementClicked, check) {
+				
+				if(check != "fav") {
+					// updating counter to 1 if the word didn't come from favBox
+					count = 1;
+				}
+				
+				var current = elementClicked.getAttribute("data-current-section");
+				if(current=="main_icons" && count ==1){
+					//if we're in the main board second time or more - erase all words from input chatBox
+					count = 0;
+					eraseAllWords();
+				}
+				var theAudio = null;
+				theAudio = elementClicked.getAttribute("data-audio");
+				var theWord = elementClicked.getAttribute("data-word");
+				if( !isNaN(theWord) ) {
+					theWord = "";
+				}
+				var whatSectionNext = elementClicked.getAttribute("data-goToSection");
+				var wordBlock = elementClicked.getAttribute("data-wordBlock");
+				var icon = elementClicked.getAttribute("data-src");
+				
+						
+				var child = document.getElementById(wordBlock);
+				var hasChild = document.querySelector(".sentence").contains(child);
+					
+				if (!hasChild) {					
+			
+					/* playing the audio */
+					document.getElementById(theAudio).play();
+					console.log("add word Function was fired!");
+					//console.log(theAudio);
+				
+					var input = document.querySelector(".sentence");	  
+					//var howManyWords = input.childElementCount;
+
+					if(input.hasChildNodes()) {
+						input.lastChild.classList.remove("wordActive");
+						input.lastChild.classList.remove("animated");
+					}
+					
+					document.querySelector(".sentence").innerHTML += '<div class="word wordActive animated fadeInRight" data-audio="'+theAudio+'" data-section-id="'+whatSectionNext+'" id=\"'+wordBlock+'\">'+ theWord +'<img class="pic_input" src=\"'+icon +'\"/></div>';
+			
+					
+					if(whatSectionNext !="noGo") {
+						
+						var allSections = document.querySelectorAll("main .board");
+						 for (var i = 0; i < allSections.length; ++i) {
+						  allSections[i].classList.remove("active"); 
+						  allSections[i].classList.remove("animated"); 
+						}
+						//console.log(whatSectionNext);
+						document.getElementById(whatSectionNext).classList.add("active",  "animated", "fadeInRight"); 
+					}
+				}
+				theAudio = null;
+			};
+			
+			
+			// attaching event to PLAY AUDIO when clicking on sound icon
+			$('body').on('click', '.sound', function(){
+				playAudio(this);
+			});	
+
+
+			// FUNCTION - PLAY AUDIO 
+			function playAudio(elementBtn) {	
+				var theAudio = null;
+				theAudio = elementBtn.getAttribute("data-audio");
+				document.getElementById(theAudio).play();
+				theAudio = null;
+				console.log("sound icon Function was fired!");
+			}			
+			
+	
+			//  FUNCTION - ADD FAV TO FAVBOX 
+			$('body').on('click', '.fav', function(e){
+			
+				var theBtn = $(this);
+				/* added this check - if element already in favBox - don't put it again */
+				if( !$(this).hasClass("hasBeenFavorited") ) {
+					
+					// adding a class to elements that has been favorited - for style & for check if they already in favBox 					
+					$(this).addClass("hasBeenFavorited");
+					
+					var theFavElement = theBtn.parent().prev();
+					
+					var favAudio = $(theFavElement).attr("data-audio");
+					var theWord = $(theFavElement).attr("data-word");
+					
+					var whatSection = $('.board.active').attr("id");
+					var whatSectionNext = $(theFavElement).attr("data-goToSection");
+					var whatID = $(theFavElement).attr("id");
+
+					var wordBlock = $(theFavElement).attr("data-wordBlock");
+					var icon = $(theFavElement).attr("data-src");
+					
+					var favString = '<div class="frame item"><div class="word animated fadeInRight"  id="'+whatID+'" data-wordBlock="'+wordBlock+'" data-current-section="'+whatSection+'" data-goToSection="'+whatSectionNext+'" data-word="'+theWord+'" data-audio="'+favAudio+'" data-src="'+icon+'"><img class="icon" src="'+icon+'"><p>'+theWord+'</p></div><div class="sound" data-audio="'+favAudio+'"><img src="images/sound.svg"></div></div>';
+					//document.querySelector(".owl-stage").insertAdjacentHTML('afterbegin', favString);
+					
+					owl.trigger('add.owl.carousel', favString)
+					
+					owl.trigger('refresh.owl.carousel');	
+				}
+
+			});	
+	
+			
+			// attaching event to favbox word - ADD WORD FROM FAVBOX TO CHATBOX
+			$(".favBox .content").on("click", ".word", function(e) {
+					e.stopPropagation();
+					addWord(this, "fav");
+			});
+			
+				
+			// ERASE ICON - onclick erase icon calls the function itself
+			$("#erase").click(function(){
+				eraseWord()
+			});				
+
+			//  FUNCTION -   ERASE ONE WORD
+			function eraseWord() {
+				var input = document.querySelector(".sentence");		
+				var howManyWords = input.childElementCount;
+
+				// allow erasing only if there are words
+				if(howManyWords > 0) {
+					// checking which class was active and now needs to be removed
+					var current_id = document.querySelector(".wordActive").getAttribute("data-section-id");
+					if(current_id !="noGo"){
+						document.getElementById(current_id).classList.remove("active");
+						document.getElementById(current_id).classList.remove("animated");
+					}
+
+					// removing the word itsel from the keybord, first checking if there are words in it - so we'll avoid errors
+					if(input.hasChildNodes()) {
+					input.lastChild.classList.remove("wordActive");
+					input.removeChild(input.lastChild);
+					}	
+					
+					// adding class to the last word, first checking if there are words in it - so we'll avoid errors
+					if(input.hasChildNodes()) {	input.lastChild.classList.add("wordActive"); }
+					
+					
+					// after deleting word - checking which section to show again, if it is the only word that is been erased - we'll go straight to main board
+					if(howManyWords > 1) {
+						var goback_id = document.querySelector(".wordActive").getAttribute("data-section-id");
+						if(goback_id !="noGo") {
+							document.getElementById(goback_id).classList.add("active", "animated", "fadeInRight"); 
+						}
+
+					}	else {
+						document.getElementById("main_icons").classList.add("active", "animated", "fadeInRight"); 
+					}
+				}
+			} // end of eraseWord
+			
+			
+
+			var myAudio = null;
+			
+			// PLAY All WORDS
+			$("#play_sen").click(function(e){
+				myAudio = null;	
+				var i = 0;
+				var target = $(this).attr("id");
+				var playlist = document.querySelectorAll(".sentence .word");
+				if(playlist.length !=0) {
+					var currentWord = playlist[0];
+					var audioID = currentWord.getAttribute("data-audio");
+					myAudio = document.getElementById(audioID);
+					myAudio.play();
+					i++;
+					console.log("PLAY All WORDS Function was fired!");
+					if( (target == "play_sen")) {
+						myAudio.addEventListener('ended', function(){
+							playMore(i, target);	
+						}, false);
+					}
+					else {
+						this.removeEventListener('ended', arguments.callee);
+					}		
+				}
+			});
+			
+		function playMore(i, target) {
+		
+			if( (target == "play_sen")) {
+				var target = target;
+				playlist = document.querySelectorAll(".sentence .word");
+				var i = i;
+				if( i < playlist.length) {
+						var audioID = playlist[i].getAttribute("data-audio");	
+						myAudio = document.getElementById(audioID);
+						document.getElementById(audioID).play();	
+						i++;
+						myAudio.addEventListener('ended', function(){
+							playMore(i, target);	
+						}, false);
+				}
+				else {
+					this.removeEventListener('ended', arguments.callee);
+				}
+			}	
+
+		};
+			
+	
+			// ERASE ALL - onclick calls the function itself
+			$("#erase_all").click(function(){
+				eraseAllWords()
+			});	
+
+			function eraseAllWords() {
+				var input = document.querySelector(".sentence");
+				var howManyWords = input.childElementCount;
+				
+				if(howManyWords > 0) {
+					while (input.firstChild) {
+						input.removeChild(input.firstChild);
+					}
+					
+					document.querySelector(".active").classList.remove("animated"); 
+					document.querySelector(".active").classList.remove("active"); 
+					document.getElementById("main_icons").classList.add("animated"); 
+					document.getElementById("main_icons").classList.add("active"); 
+				}
+			}
+			
+									
+	// FAV BOX OPENER
+			$(".favOpener").click(function(){
+				$(".favBox").toggleClass("opened");
+				$(".overlay").toggleClass("shown");
+				$(".favOpener img").toggleClass("shown");
+			});
+				
+			
+}); //end ready
+
+
+
+
+		</script>
+	</body>
+</html>
